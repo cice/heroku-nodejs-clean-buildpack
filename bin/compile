@@ -2,6 +2,6 @@
 
 # Remove node_modules
 
-rm -rf $1/frontend/node_modules
+rm -rf $1/{frontend,client}/node_modules
 
 exit 0
