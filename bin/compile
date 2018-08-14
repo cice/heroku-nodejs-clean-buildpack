@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Remove node_modules
+echo "Removing node_modules"
 
 rm -rf $1/{frontend,client}/node_modules
 
